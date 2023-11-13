@@ -224,7 +224,7 @@ function AddArticleTest() {
                     "addmarque": "Noble",
                     "addtype": "ACCOUTREMENT",
                     "addtypepro": "Chemise",
-                    "addphone": "0768020606",
+                    "addphone": "0546174263",
                     "addexpe": "Non",
                     "notes": "Une chemise très belle",
                     "image": [

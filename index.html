@@ -1593,7 +1593,7 @@
                                 </li>
                                 <li>
                                     <i class="bx bx-phone-call"></i>
-                                    <a class="awe" href="tel:0768020606">00 00 00 00
+                                    <a class="awe" href="tel:0546174263">00 00 00 00
                                     </a>
                                 </li>
                                 <li>
@@ -1675,7 +1675,7 @@
                                 </li>
                                 <li>
                                     <i class="bx bx-phone-call"></i>
-                                    <a class="awe" href="tel:0768020606">00 00 00 00
+                                    <a class="awe" href="tel:0546174263">00 00 00 00
                                     </a>
                                 </li>
                                 <li>
@@ -1746,7 +1746,7 @@
 
         <div class='start-chata hidea'>
             <div class='first-msga' id="first-msga">
-                <span class="spanf">Bonjour! Personne n'est en line pour l'instant, Appelez: 0768020606</span>
+                <span class="spanf">Bonjour! Personne n'est en line pour l'instant, Appelez: 0546174263</span>
 
 
             </div>
@@ -1844,9 +1844,9 @@
                     $(".start-chata, .get-newa").addClass("showa").removeClass("hidea");
                     $(".home-chata, .head-homea").addClass("hidea").removeClass("showa");
                 }
-                firstMsga.innerHTML += "<br><span class='spanf'>Un agent d'assistence vient d'etre en line, \n Ecrivez-lui a nouveau</span>";
+                firstMsga.innerHTML += "<br><span class='spanf'>Le service d'assistance vient d'être en ligne. \n Écrivez-lui à nouveau.</span>";
             } else if (data == "horline") {
-                firstMsga.innerHTML += "<span class='spanf' style='color: red !important'>Bonjour! Personne n'est en line pour l'instant, \n Patientez d'ici que quelqu'un vous joindre \n Ou appelez: 0768020606</span>";
+                firstMsga.innerHTML += "<span class='spanf' style='color: red !important'>Bonjour ! Personne n'est en ligne pour l'instant. \n Patientez jusqu'à ce que quelqu'un puisse vous joindre. \n Vous pouvez également appeler au 0546174263.</span>";
             }
         });
 
@@ -1925,7 +1925,7 @@
                 socket.emit('send_toadmin', messageData, (isAmi) => {
                     if (!isAmi) {
                         const nolineMsga = document.getElementById("first-msga");
-                        nolineMsga.innerHTML = "<span class='spanf' style='color: red !important'>Bonjour! Personne n'est en line pour l'instant, \n Patientez d'ici que quelqu'un vous joindre \n Ou appelez: 0768020606</span>";
+                        nolineMsga.innerHTML = "<span class='spanf' style='color: red !important'>Bonjour! Personne n'est en line pour l'instant, \n Patientez d'ici que quelqu'un vous joindre \n Ou appelez: 0546174263</span>";
 
                         if (myMes) {
 

@@ -25,7 +25,7 @@
     <title>Matasa-Admin</title>
     <link rel="stylesheet" href="admin/assets/css/style-starter.css">
     <link rel="stylesheet" href="admin/tirthcss.css">
-    <link rel="stylesheet" href="admin/noble.css">
+    <link rel="stylesheet" href="admin/matasa.css">
 
     <link rel="icon" type="image/png" href="../assets/img/notif.png">
 </head>
@@ -985,7 +985,7 @@
                 });
 
 
-            } else if (data.owner == "noble" && data.admin == "") {
+            } else if (data.owner == "matasa" && data.admin == "") {
                 ClientId.push(data);
                 const clientId = document.getElementById("clientId");
                 clientId.innerHTML += `<a class='informasia aa' href='javascript:void' title='Chat Whatsapp'>
@@ -1011,7 +1011,7 @@
                 $("#first-msga").animate({ scrollTop: $("#first-msga")[0].scrollHeight }, 500);
 
             } else if (asd.length < 1) {
-                if (data.owner == "noble" && data.admin == me) {
+                if (data.owner == "matasa" && data.admin == me) {
                     $("#whatsapp-chat").addClass("showa").removeClass("hidea"),
                         $("#whatsapp-chat").addClass("tuesla");
                     setTimeout(() => {
@@ -1036,7 +1036,7 @@
 
 
                     }, 1300);
-                } else if (data.owner == "noble" && data.admin == "") {
+                } else if (data.owner == "matasa" && data.admin == "") {
                     $("#whatsapp-chat").addClass("showa").removeClass("hidea"),
                         $("#whatsapp-chat").addClass("tuesla");
                     setTimeout(() => {
@@ -1065,10 +1065,10 @@
 
 
 
-            } else if (data.owner == "noble" && data.admin == me) {
+            } else if (data.owner == "matasa" && data.admin == me) {
                 document.getElementById("chatss").innerText = `${parseInt(chatss) + 1}`;
 
-            } else if (data.owner == "noble" && data.admin == "") {
+            } else if (data.owner == "matasa" && data.admin == "") {
                 document.getElementById("chatss").innerText = `${parseInt(chatss) + 1}`;
 
             }

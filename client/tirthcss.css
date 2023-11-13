@@ -25,7 +25,7 @@
 
 table {
     width: 100%;
-    background-color: #054846;
+    background-color: #6e002a;
     box-shadow: 0 .4rem .8rem #0005;
     border-radius: .8rem;
     overflow: hidden;
@@ -220,7 +220,7 @@ li {
 
 
     .articlerow .title .leftone p {
-        color: #054846;
+        color: #6e002a;
     }
 
     .articlerowsub .title .leftone .clolo {
@@ -241,12 +241,12 @@ li {
     }
 
     .articlerow .title .rightone .status {
-        color: #054846;
+        color: #6e002a;
     }
 
     .articlerow .title .rightone .sta.shipp {
         background-color: #109691a6;
-        color: #054846;
+        color: #6e002a;
 
     }
 

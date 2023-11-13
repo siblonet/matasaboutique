@@ -2,7 +2,7 @@
 .preloader-area {
     position: fixed;
     top: 0;
-    background-color: #006e65;
+    background-color: #6e002a;
     left: 0;
     width: 100%;
     height: 100%;
@@ -32,7 +32,7 @@
     width: 100%;
     height: 100%;
     border-radius: 100%;
-    border: .3em dotted #edda30
+    border: .3em dotted #ffffff
 }
 
 .preloader-area .spinner .disc:nth-child(1) {
@@ -67,7 +67,7 @@
     border-radius: 50%;
     right: 0;
     bottom: 0;
-    border: 2px dotted #edda30;
+    border: 2px dotted #007fbb;
     margin: -15px
 }
 

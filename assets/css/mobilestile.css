@@ -24,9 +24,9 @@
     .navbar-area {
         height: 42px !important;
         background: linear-gradient(to right,
-                #006e65 0%,
-                #04af0c 20%,
-                gold 40%,
+                #6e002a 0%,
+                #8605bd 20%,
+                #3526AF 40%,
                 #000000 80%,
                 #ff0000 90%) !important;
         overflow: hidden;

@@ -56,11 +56,11 @@ Default CSS
 @import url("https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i&amp;display=swap");
 
 :root {
-  --companycoa: #0c6248;
-  --companycob: #fdd804;
+  --companycoa: #064791;
+  --companycob: #3526AF;
   --companycoc: #dc3545;
-  --companycod: #037703;
-  --companycoe: #006e65;
+  --companycod: #860543;
+  --companycoe: #6e002a;
   --warning: #ffc107;
   --danger: #dc3545;
   --black: #000000;
@@ -74,7 +74,7 @@ Default CSS
   --pk: pink;
   --org: orange;
   --yw: yellow;
-  --gd: gold;
+  --gd: #3526AF;
   --rpik: #b51867;
   --yfaa: #f49f0b;
   --: #;
@@ -780,9 +780,9 @@ Navbar CSS
   height: 2px;
   width: 100%;
   background: linear-gradient(to right,
-                #006e65 0%,
-                #04af0c 20%,
-                gold 40%,
+                #3526AF 0%,
+                #f9fcfa 20%,
+                rgb(208, 0, 255) 40%,
                 #000000 80%,
                 #ff0000 90%) !important;
 }
@@ -1913,7 +1913,7 @@ display: none !important;
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: #006e65;
+  background-color: #3526AF;
   -webkit-transition: width .6s ease-in-out, height .5s ease-in-out;
   transition: width .6s ease-in-out, height .5s ease-in-out;
   -webkit-transform: translate(-50%, -50%);
@@ -8211,9 +8211,9 @@ Page Title CSS
 .page-title-area {
   overflow: hidden;
   background: linear-gradient(to right,
-      #006e65 0%,
+      #3526AF 0%,
       #037703 20%,
-      gold 40%,
+      #3526AF 40%,
       var(--black) 80%,
       var(--rd) 90%) !important;
 }
@@ -9193,9 +9193,9 @@ Checkout CSS
   margin-bottom: 40px;
   overflow: hidden;
   background: linear-gradient(to right,
-      #006e65 0%,
+      #3526AF 0%,
       #037703 20%,
-      gold 40%,
+      #3526AF 40%,
       var(--black) 80%,
       var(--rd) 90%) !important;
 }
@@ -10775,9 +10775,9 @@ Footer CSS
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
   background: linear-gradient(to right,
-      #006e65 0%,
+      #3526AF 0%,
       #037703 20%,
-      gold 40%,
+      #3526AF 40%,
       #000000 80%,
       var(--rd) 90%) !important;
   overflow: hidden !important;
@@ -10837,7 +10837,7 @@ Footer CSS
   content: '';
   position: absolute;
   left: 0;
-  background-color: gold;
+  background-color: #3526AF;
 }
 
 .single-footer-widget .footc {
@@ -10857,7 +10857,7 @@ Footer CSS
   content: '';
   position: absolute;
   left: 0;
-  background-color: gold;
+  background-color: #3526AF;
 }
 
 .single-footer-widget .footd {
@@ -11007,7 +11007,7 @@ Footer CSS
 }
 
 .single-footer-widget .about-the-store .footer-contact-info li .awe:hover {
-  color: #006e65;
+  color: #3526AF;
 }
 
 .single-footer-widget .about-the-store .footer-contact-info li .awe:hover::before {

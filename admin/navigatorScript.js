@@ -85,7 +85,7 @@ const Reloada = () => {
 
 async function FetchArticle() {
     try {
-        const items = await sendRequestnot('GET', 'boutique/noble');
+        const items = await sendRequestnot('GET', 'boutique/matasa');
         if (items) {
             await openArticleDatabase();
             clearArt(items);
@@ -855,7 +855,7 @@ function addOrders(data) {
 }
 
 const NavBaractivity = async () => {
-    const items = await sendRequestforOrderget('GET', 'orders/noble');
+    const items = await sendRequestforOrderget('GET', 'orders/matasa');
     await openOrdersDatabase();
     await clearOrder();
     await addOrders(items);
@@ -994,7 +994,7 @@ async function getArticles() {
     ClientData.length = 0;
     AdminData.length = 0;
     let available = 0;
-    const User = await sendRequestforOrderget('GET', 'people/persons');
+    const User = await sendRequestforOrderget('GET', 'people/persons/matasa');
     User.forEach(user => {
         if (user.admin == "true") {
             AdminData.push(user);

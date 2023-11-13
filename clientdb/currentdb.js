@@ -394,7 +394,7 @@ function getPanierSend(tocompl) {
 
 
             try {
-                const response = await sendReque('POST', 'orders', tocompl);
+                const response = await sendReque('POST', 'orders/matasa', tocompl);
                 if (response.er == "done" && response.id == "done") {
                     TotalAll("clear", "");
                     window.location.href = "client"

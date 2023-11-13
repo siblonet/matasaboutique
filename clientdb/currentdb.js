@@ -297,7 +297,7 @@ function AddArticle() {
                 addphone: addphone,
                 addexpe: addexpe,
                 notes: notes,
-                owner: "noble",
+                owner: "matasa",
                 image: imas
             };
             document.getElementById("ajouteencou").innerText = "En cours"

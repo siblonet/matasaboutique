@@ -65,7 +65,8 @@ async function Inscription() {
                 nom: lname,
                 motdepass: password,
                 email: email,
-                phone: phone
+                phone: phone,
+                owner: "matasa"
             };
 
 
@@ -137,7 +138,7 @@ async function loGin() {
             motdepass: password,
         };
 
-        const response = await authantificationRequest('POST', 'people/login', person);
+        const response = await authantificationRequest('POST', 'people/login/matasa', person);
 
         if (response && response.invalide) {
             load.classList.remove("load28")
@@ -195,7 +196,7 @@ async function loginCommage() {
             motdepass: password,
         };
 
-        const response = await authantificationRequest('POST', 'people/login', person);
+        const response = await authantificationRequest('POST', 'people/login/matasa', person);
 
         if (response && response.inconnu) {
             load.classList.remove("load28")

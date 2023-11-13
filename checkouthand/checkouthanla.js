@@ -57,7 +57,7 @@ async function sendCommen() {
                 lieu: adresseValue,
                 phone: telephoneValue,
                 note: notesValue,
-                owner: "noble",
+                owner: "matasa",
                 client: mynam,
             };
 
@@ -86,6 +86,7 @@ async function sendCommen() {
                     motdepass: motValue,
                     email: emailValue,
                     phone: telephoneValue,
+                    owner: "matasa",
                 };
 
                 const response = await CreatClientd(person, 'POST', 'people');  // Await the result
@@ -109,7 +110,7 @@ async function sendCommen() {
                         lieu: adresseValue,
                         phone: telephoneValue,
                         note: notesValue,
-                        owner: "noble",
+                        owner: "matasa",
                         client: response.token,
                     };
 
